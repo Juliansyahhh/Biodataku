@@ -1,0 +1,224 @@
+*, html {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav div img {
+	width: 180px;
+	height: auto;
+	align-items: center;
+}
+
+nav {
+	background-color: #8EA7E9;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 40px;
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.23);	
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.23);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.23);
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0px;
+	z-index: 1;
+}
+
+nav ul {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	gap: 1rem;
+
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 5px;
+	transition: all;
+	transition-duration: .3s;
+	border-bottom: 1px solid transparent;
+	transition-delay: .3;
+	font-weight: 700;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid darkblue;
+	color: darkblue;
+}
+
+section {
+	margin: 50px;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+p {
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.kolom {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+	font-size: 25px;
+	font-weight: bold;
+	color: #7286D3;
+}
+
+h2 {
+	font-weight: 800;
+	font-size: 45px;
+	margin-bottom: 20px;
+	color: #7286D3;
+	transition: all;
+	transition-duration: .3s;
+	transition-delay: .1s;a
+}
+
+h2:hover {
+	font-weight: 900;
+	font-size: 48px;
+}
+
+a.tbl-kuning {
+	background: #7286D3;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all;
+	transition-duration: .3s;
+	transition-delay: .1s;a
+
+}
+
+a.tbl-kuning:hover {
+	background: #E5E0FF;
+	color:#7286D3 ;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.table1 {
+	font-size: 15px;
+}
+
+table tr td {
+	padding: 10px 10px;
+	align-items: center;
+	transition: all;
+	transition-duration: .2s;
+	transition-delay: .1s;
+
+}
+
+table tr td:hover {
+	background: #2E4374;
+	border-radius: 50px;
+	padding: 17px 17px;
+	font-size: 20px;
+	font-weight: bold ;
+	color: white;
+
+}
+
+.foto-p {
+	width:100px;
+	height: auto;
+	display: flex;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transition: all;
+	transition-duration: .3s;
+	transition-delay: .1;
+	opacity: 0.5;
+	transform: rotate(45deg);
+}
+
+.foto-p:hover {
+	width:280px;
+	height: auto;
+	opacity: 1;
+	transform: rotate(0deg);
+}
+a.tbl-kuning2 {
+	background: #7286D3;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all;
+	transition-duration: .3s;
+	transition-delay: .1s;a
+
+}
+
+a.tbl-kuning2:hover {
+	background: #E5E0FF;
+	color:#7286D3 ;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.hobi {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	margin-top: 10px;
+	gap: 1rem;
+	list-style-type: none;
+
+}
+
+.hobi li img{
+	opacity: 0.5;
+	transition: all;
+	transition-duration: .3s;
+	transition-delay: .1s;
+	border-radius: 10px;
+}
+.hobi li img:hover {
+	height: 300px;
+	width: auto;
+	opacity: 1;
+	border-radius: 20px
+}
+a.tbl-kuning3 {
+	background: #7286D3;
+	border-radius: 20px;
+	margin-top: 20px;
+	padding: 15px 20px 15px 20px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	text-decoration: none;
+	transition: all;
+	transition-duration: .3s;
+	transition-delay: .1s;a
+
+}
+
+a.tbl-kuning3:hover {
+	background: #E5E0FF;
+	color:#7286D3 ;
+	text-decoration: none;
+	font-size: 15px;
+}
+
